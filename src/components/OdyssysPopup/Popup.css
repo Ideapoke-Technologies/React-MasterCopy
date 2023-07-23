@@ -1,0 +1,37 @@
+
+.modal-pop-back1{
+    position: relative;
+    width: 1180px !important;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-top: 10px;
+    /* /* overflow-y: scroll !important;
+    overflow-x: hidden !important; */
+    height: 608px !important;
+    outline: none;
+    border-radius: 6px;
+ }
+.ReactModal__Overlay{
+ background-color: #584f4fc9 !important;
+opacity: 0;
+ transform: translateY(-10px);
+  transition: all 500ms ease-in-out;
+ }
+.ReactModal__Overlay--after-open {
+opacity: 1;
+ transform: scale(1);
+ overflow-y: auto;
+ z-index: 1;
+  }
+ .ReactModal__Overlay--before-close {
+ opacity: 0;
+transform: translateY(0px);
+ }
+.selected{
+     background-color: #c5c5c5 !important;
+    
+ }
+    
+    
+    

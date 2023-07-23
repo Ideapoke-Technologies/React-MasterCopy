@@ -1,0 +1,6 @@
+.hoverBtn{
+    visibility: hidden;
+}
+.hovercard:hover .hoverBtn{
+    visibility: visible;
+}

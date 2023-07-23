@@ -1,0 +1,9 @@
+.ReactModal__Overlay--after-open{
+    z-index: 1;
+}
+.modal-pop-back{
+    border-radius: 12px;
+}
+.pop-margin{
+    margin-top: 170px !important;
+}
